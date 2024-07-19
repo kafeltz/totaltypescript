@@ -1,3 +1,5 @@
+// https://www.totaltypescript.com/tutorials/react-with-typescript/components/solving-the-any-problem-with-children/solution
+
 import React, { ComponentProps } from "react";
 
 type MyInput1 = ComponentProps<'input'> & { onChange: (value: string) => void }
